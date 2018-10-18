@@ -1,0 +1,21 @@
+<div class="container">
+    <div class="form" align="center">
+        <h1>S'enregistrer</h1>
+        <p class="lead">Déjà membre ? <a routerLink="/login">Connecte toi !</a></p>
+        <form (submit)="register()">
+            <div class="form-group">
+                <label for="name">Pseudo</label>
+                <input type="text" class="form-control" name="name" placeholder="Entrer votre name" [(ngModel)]="credentials.name">
+            </div>
+            <div class="form-group">
+                <label for="email">Adresse Mail</label>
+                <input type="email" class="form-control" name="email" placeholder="Entrer votre email" [(ngModel)]="credentials.email">
+            </div>
+            <div class="form-group">
+                <label for="password">Mot de passe</label>
+                <input type="password" class="form-control" name="password" placeholder="Entrer votre mot de passe" [(ngModel)]="credentials.password">
+            </div>
+            <button type="submit" class="btn btn-default">Register!</button>
+        </form>
+    </div>
+</div>

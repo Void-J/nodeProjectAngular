@@ -1,0 +1,19 @@
+<div class="container">
+    <div class="form" align="center">
+        <div class="form-header sign">
+            <h1 class="form-header sign">Connection</h1>
+            <p class="join">Pas encore membre ?<a routerLink="/register"> Enregistre </a>toi !</p>
+            <form (submit)="login()">
+                <div class="form-content">
+                    <label for="email">Adresse Mail</label>
+                    <input type="email" class="form-control" name="email" placeholder="Entrer votre email" [(ngModel)]="credentials.email">
+                </div>
+                <div class="form-content">
+                    <label for="password">Mot de passe</label>
+                    <input type="password" class="form-control" name="password" placeholder="Entrer votre mot de passe" [(ngModel)]="credentials.password">
+                </div>
+                <button type="submit" class="btn btn-default">Se connecter</button>
+            </form>
+        </div>
+    </div>
+</div>

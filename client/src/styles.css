@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Flamenco|Mrs+Sheppards');
+body,
+html {
+    padding: 0;
+    margin: 0;
+}
+
+.title h1 {
+    font-family: 'Mrs Sheppards', cursive;
+    font-size: 100px;
+    color: #fff;
+    font-weight: 100;
+}
