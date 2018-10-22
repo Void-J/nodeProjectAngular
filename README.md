@@ -7,7 +7,7 @@ _Lancer mongodb
 _Lancer npm install au coeur du projet.
 __Lancer npm start au coeur du projet.
 3:
-_Lancer npm install dans le dossier "Clien".
-__Lancer npm start dans le dossier "Clien". 
+_Lancer npm install dans le dossier "Client".
+__Lancer npm start dans le dossier "Client". 
 4: 
 _Ouvrir un navigateur à l'adresse suivante : http://localhost:4200/
